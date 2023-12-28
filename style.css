@@ -989,6 +989,11 @@ body{
     --gradient: linear-gradient(to bottom, #f5b5e2, #e984cb, #7e61ff);
     --color: #e984cb
   }
+  @media(max-width:700px){
+      .notification{
+          width:15rem;
+      }
+  }
   
   .notification:before {
     position: absolute;
