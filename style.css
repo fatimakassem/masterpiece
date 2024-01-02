@@ -178,6 +178,8 @@ body{
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .terminal-header {
@@ -1337,7 +1339,7 @@ body{
 
 .master{
   text-align: center;
-  font-size: 20px;
+  
  }
  .M {
   text-align: center;   
