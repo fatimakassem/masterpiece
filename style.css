@@ -1340,6 +1340,7 @@ body{
   font-size: 40px;
  }
  .M {
+  text-align: center;   
   color: black;
   opacity: 0;
   animation: pass 2s ease-in-out infinite;
@@ -1349,6 +1350,7 @@ body{
 }
 
 .a {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass 2s ease-in-out infinite;
@@ -1358,6 +1360,7 @@ body{
 }
 
 .s {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass 2s ease-in-out infinite;
@@ -1367,6 +1370,7 @@ body{
 }
 
 .t {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass 2s ease-in-out infinite;
@@ -1376,6 +1380,7 @@ body{
 }
 
 .e {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass 2s ease-in-out infinite;
@@ -1385,6 +1390,7 @@ body{
 }
 
 .r {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass 2s ease-in-out infinite;
@@ -1394,6 +1400,7 @@ body{
 }
 
 .p {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass 2s ease-in-out infinite;
@@ -1403,6 +1410,7 @@ body{
 }
 
 .i {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass1 2s ease-in-out infinite;
@@ -1412,6 +1420,7 @@ body{
 }
 
 .e {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass1 2s ease-in-out infinite;
@@ -1420,6 +1429,7 @@ body{
   text-shadow: 2px 2px 3px #919191;
 }
 .c {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass1 2s ease-in-out infinite;
@@ -1428,6 +1438,7 @@ body{
   text-shadow: 2px 2px 3px #919191;
 }
 .e {
+    text-align: center;
   color: black;
   opacity: 0;
   animation: pass1 2s ease-in-out infinite;
