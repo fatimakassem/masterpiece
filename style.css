@@ -1335,6 +1335,10 @@ body{
 
 
 
+.master{
+  text-align: center;
+  font-size: 40px;
+ }
  .M {
   color: black;
   opacity: 0;
