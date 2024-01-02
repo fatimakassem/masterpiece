@@ -1292,7 +1292,13 @@ body{
 
 
 
-
+.word{
+      margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+     align-items: center;
+}
 .word span {
   font-size: 22px;
   font-family: 'Courier New', Courier, monospace;
@@ -1301,10 +1307,7 @@ body{
   line-height: 20px;
   transition: all 0.5s;
   letter-spacing: 0.2em;
-    margin: auto;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+  
  }
  
  @keyframes blur {
