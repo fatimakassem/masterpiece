@@ -1293,11 +1293,9 @@ body{
 
 
 .word{
-      margin: auto;
+    
   text-align: center;
-  display: flex;
-  justify-content: center;
-     align-items: center;
+  
 }
 .word span {
   font-size: 22px;
@@ -1307,7 +1305,7 @@ body{
   line-height: 20px;
   transition: all 0.5s;
   letter-spacing: 0.2em;
-  
+    text-align: center;
  }
  
  @keyframes blur {
