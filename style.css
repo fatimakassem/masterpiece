@@ -1484,6 +1484,46 @@ body{
 
 
 
+.textloader {
+  margin-top: -45px;
+  margin-left: 75px;
+  position: relative;
+  overflow: hidden;
+  border-right: 3px solid;
+  width: 70px;
+  animation: typewriter 2s steps(10)  infinite alternate , blink 0.5s steps(10) infinite;
+}
+
+.textloader-text {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 700;
+  background: linear-gradient(to right,#f0add2, #ee54ae);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 240px;
+  }
+}
+
+@keyframes blink {
+  0% {
+    border-right-color: rgba(255,255,255,.75);
+    ;
+  }
+
+  100% {
+    border-right-color: transparent;
+  }
+}
+
 
 
 
