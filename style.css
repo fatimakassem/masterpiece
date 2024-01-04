@@ -1297,7 +1297,8 @@ body{
 .word{
     
   text-align: center;
-  margin-up: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .word span {
   font-size: 22px;
