@@ -239,7 +239,8 @@ body{
 
 
 
-
+.rec{
+    position: fixed;
 
 .rec h1{
     margin-top: 7%;
