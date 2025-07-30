@@ -41,7 +41,8 @@ body{
     margin:10px 0 40px;
     font-size: 15px;
     color:#12121e;
-    font-family: cursive;
+   font-family: 'Pacifico', cursive;
+
 }
 
 .nav__list{
@@ -176,7 +177,7 @@ body{
   border: 0.1em solid #333;
   background-color: #1a1a1a;
   color: #0f0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Pacifico', cursive;
   font-size: 1.2em;
   padding: 1.5em 1em;
   width: 18em;
@@ -253,8 +254,8 @@ body{
     font-size: 40px;
     text-align: center;
     color:rgb(255, 91, 137);
-    
-    font-family: fantasy;
+    font-family: 'Pacifico', cursive;
+
 }
 
 .row{
