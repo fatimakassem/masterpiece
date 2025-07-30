@@ -32,14 +32,18 @@ body{
   font-weight: bold;
   color: #c13584;
 }
-.header{
-   height: inherit;
-   min-height: 50vh;
-   width:100%;
-   background-image:linear-gradient(rgba(255, 255, 255, 0.884),rgba(48, 101, 80, 0.116)),url(images/m5.png);
-   background-position: center;
-   background-size: cover;
-   position:relative;
+.header {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(193, 53, 132, 0.2)),
+              url('images/m5.png') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 30px;
+  text-align: center;
 }
 .text-box{
     width:90%;
