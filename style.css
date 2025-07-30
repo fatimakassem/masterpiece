@@ -171,7 +171,7 @@ html, body {
     filter: drop-shadow(0 0 23px var(--animation-color))
   }
 
-  .loader {
+  /*.loader {
     display: block;
     width: 84px;
     height: 84px;
@@ -233,7 +233,7 @@ html, body {
   }
 }
 
-.terminal-loader {
+/*.terminal-loader {
   border: 0.1em solid #333;
   background-color: #1a1a1a;
   color: #0f0;
@@ -306,6 +306,40 @@ html, body {
 }
 
 
+
+
+
+.loader-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  animation: slideFadeIn 1.2s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideFadeIn {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.textloader {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #c13584;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  animation: blinkCursor 0.5s step-end infinite alternate;
+}
 
 
 
