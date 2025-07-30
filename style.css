@@ -307,7 +307,14 @@ html, body {
 
 
 
-
+.text-loader{
+   margin-top: 10px;
+  font-size: 0.9rem;
+  color: #c13584;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  animation: blinkCursor 0.5s step-end infinite alternate;
+}
 
 
 
