@@ -171,7 +171,7 @@ html, body {
     filter: drop-shadow(0 0 23px var(--animation-color))
   }
 
-  /*.loader {
+  .loader {
     display: block;
     width: 84px;
     height: 84px;
@@ -233,7 +233,7 @@ html, body {
   }
 }
 
-/*.terminal-loader {
+.terminal-loader {
   border: 0.1em solid #333;
   background-color: #1a1a1a;
   color: #0f0;
