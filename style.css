@@ -20,7 +20,7 @@ body{
 .header{
   height: 100vh;
   width: 100%;
-    background-image:linear-gradient(rgba(145deg, #fdf6f9, #ffe6f0),145deg, #fdf6f9, #ffe6f0),url(images/m5.png);
+  background-image:linear-gradient(rgba(250, 182, 219, 0.884),rgba(242, 164, 212, 0.116)),url(images/m5.png);
    background-position: center;
    background-size: cover;
    position:relative;
