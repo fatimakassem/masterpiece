@@ -177,6 +177,10 @@ html, body {
     height: 84px;
     position: relative;
     flex-wrap: wrap;
+    position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
   }
   
   
@@ -308,6 +312,10 @@ html, body {
 
 
 .text-loader{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
    margin-top: 10px;
   font-size: 0.9rem;
   color: #c13584;
