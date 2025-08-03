@@ -1463,7 +1463,7 @@ body{
     .staff-card {
       margin-left: 20%;
       padding: 30px 20px;
-      max-width: 70%;
+      max-width: 100%;
     }
   
     .staff-image-wrapper {
@@ -2490,4 +2490,5 @@ img {
   transform: translateX(0);
 
 }
+
 
