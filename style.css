@@ -2361,6 +2361,7 @@ img {
   position: relative;
   z-index: 2;
   max-width: 800px;
+    margin-top: 10%;
   margin: 0 auto 40px;
   color: #fff;
   font-family: 'Georgia', serif;
@@ -2489,3 +2490,4 @@ img {
   transform: translateX(0);
 
 }
+
