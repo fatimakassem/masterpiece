@@ -226,7 +226,7 @@ body{
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .nav-toggle-label {
     display: flex;
   }
@@ -285,7 +285,7 @@ body{
     color: transparent;
     -webkit-text-stroke: 1px var(--text-stroke-color);
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 600px) {
     .button{
         --fs-size: 1em;
     }
@@ -589,7 +589,7 @@ body{
     width: 24.99999%;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 600px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
@@ -1449,7 +1449,7 @@ body{
   }
   
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .staff {
       padding: 20px 10px;
     }
@@ -1799,7 +1799,7 @@ body{
   letter-spacing: 0.5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .inspiration-text h1 {
     font-size: 1rem;
   }
@@ -2487,4 +2487,5 @@ img {
 .in-view.animate-right {
   opacity: 1;
   transform: translateX(0);
+
 }
